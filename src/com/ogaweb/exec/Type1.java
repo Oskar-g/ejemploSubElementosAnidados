@@ -10,7 +10,6 @@ import java.util.List;
 public class Type1 {
 
     //Constantes
-    private static final int subNivelMaximo = 6;
     private static final String vacio = "";
 
     //Lista generica "devuelta por el servicio"
@@ -119,7 +118,7 @@ public class Type1 {
      * @return true si se cumplen las condiciones false si no
      */
     private boolean estaInformado(String valor) {
-        return (valor != null && !valor.trim().equals(""));
+        return (valor != null && !valor.trim().equals(vacio));
     }
 
     /**

@@ -34,14 +34,4 @@ public class Dano implements Serializable {
     public void setSubElemento(List<Elemento> subElemento) {
         this.subElemento = subElemento;
     }
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("Dano{");
-        sb.append("codigoDano=").append(codigoDano);
-        sb.append(", nombre='").append(nombre).append('\'');
-        sb.append(", subElemento=").append(subElemento);
-        sb.append('}');
-        return sb.toString();
-    }
 }
